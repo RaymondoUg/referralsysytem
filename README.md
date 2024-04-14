@@ -1,2 +1,2 @@
 # referralsysytem
-for y reffferal system
+for my reffferal system
