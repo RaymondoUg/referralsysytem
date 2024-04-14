@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Referral Offer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, p {
+            text-align: center;
+        }
+        .offer-details {
+            margin-top: 20px;
+        }
+        .discount-code {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Congratulations!</h1>
+        <p><strong>{{referrerName}}</strong> gifted you with 10% OFF your first clean.</p>
+        <div class="offer-details">
+            <p>To redeem this offer, simply use the following discount code when booking:</p>
+            <div class="discount-code">{{discountCode}}</div>
+            <p>Instructions on how to redeem the offer...</p>
+        </div>
+    </div>
+</body>
+</html>
